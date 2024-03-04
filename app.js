@@ -21,7 +21,7 @@ btn.addEventListener('click',()=>{
   let inputVal = input.value
   if(curr1===curr2)
     alert("Choose different currencies")
-  else
+  else 
     convert(curr1,curr2,inputVal)
 });
 
